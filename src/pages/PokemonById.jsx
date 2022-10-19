@@ -84,9 +84,9 @@ const PokemonById = () => {
                     pokemon?.stats.map(stat=>(
                       <div className='stat__container'>
                         <span className='cardppoke__stat-label'>{stat.stat.name}</span>
-                        <span className={`cardpoke__stat-number letter__${pokemon?.types[0].type.name}`}>{ stat.base_stat}</span>
+                        <span className={`cardpoke__stat-number letter__${pokemon?.types[0].type.name}`}>{ stat.base_stat}/150 </span>
                         <div className='barra__padre'>
-                          <div className='barra__avance'></div>
+                          <div   className='barra__avance' style={{width: `${stat.base_stat}%`}} ></div>
                         </div>
 
                       </div>
