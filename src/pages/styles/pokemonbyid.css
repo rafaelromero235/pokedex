@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.card__pokemon{
+width: 100%;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid grey;
+margin-top: 200px;
+padding-bottom: 100px;
+border-radius: 5px;
+
+}
+
+.poke__header{
+   
+    background-color: green;
+    height: 150px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.poke__sprite{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    position: absolute;
+    bottom: -70px;
+}
+.poke__body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.poke__id{
+    text-align: center;
+}
+.poke__name{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.poke__container{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+}
+.poke__peso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poke__altura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.padre__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.poke__tipo-label{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    gap: 5px;
+}
+.tipo__container{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tipo__item{
+background-color: blueviolet;
+border-radius: 3px;
+color: white;
+padding: 5px;
+
+}
+.poke__ability-label{
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+
+}
+.ability__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10Px;
+    flex-wrap: wrap;
+}
+.ability__item{
+    background-color: #ccc;
+border-radius: 3px;
+color: black;
+padding: 5px;
+}
+
+.stat__container{
+    position: relative;
+}
+.cardpoke__stat-number{
+    position: absolute;
+    right: 20px;
+}
+.cardppoke__stat-label{
+    position: relative;
+    left: 20px;
+}
+.barra__padre{
+    width: 500px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+}
+.barra__avance{
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.separator__footer{
+    height: 50px;
+}
+
+
+.bg-grass{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}

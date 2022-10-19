@@ -1,0 +1,119 @@
+.cardpoke{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 13px;
+    overflow: hidden;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+.cardpoke__header{
+    height: 200px;
+    background-color: green;
+    position: relative;
+    margin-bottom: 65px;
+}
+.cardpoke__sprite{
+    width: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cardpoke__body{
+    margin-bottom: 30px;
+}
+.cardpoke__name{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.cardpoke__types-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+
+.cardpoke__item{
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+   
+}
+
+.cardpoke__item:nth-child(2)::before {
+    content: '/ ';
+}
+.cardpoke__label{
+    text-align: center;
+    font-size: 13px;
+    color: #999;
+}
+.cardpoke__stats-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 5px;
+    justify-items:  center;
+    padding: 0;
+    padding: 0 5px 35px;
+}
+
+.cardpoke__stat{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.cardppoke__stat-label{
+font-size: 13px;
+color: #999;
+text-transform: uppercase;
+}
+.cardpoke__stat-number{
+    font-size: 18px;
+}
+/* borders colors */
+.border__grass{
+    border-color: #B1DBBC;
+}
+
+.border__fire{
+    border-color: #E6901E;
+}
+.border__water{
+    border-color: #83B9FF;
+}
+.border__bug{
+    border-color: #4AB648;
+}
+/*brackground colors*/
+.bg-grass{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-bug{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+/*letter color*/
+.letter__grass{
+    color: #416460;
+}
+.letter__fire{
+    color: #E75C35;
+}
+.letter__water{
+    color: #1479FB;
+}
+.letter__bug{
+    color: #4AB648;
+}
